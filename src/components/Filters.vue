@@ -146,6 +146,19 @@ button {
 button:hover {
   transform: scale(1.05);
 }
-
   
+
+@media (max-width: 1200px) {
+  .filter {
+  width: 100%;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+
+}
+
+
+
  </style>

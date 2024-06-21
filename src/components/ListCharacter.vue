@@ -41,5 +41,28 @@ export default {
   gap: 2rem;
   margin: 2rem 0;
 }
+
+.characters > * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .characters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .characters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .characters {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
